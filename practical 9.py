@@ -27,5 +27,7 @@ def initialize_git_repo():
     except FileNotFoundError:
         print("Git is not installed or not found in your PATH.")
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     initialize_git_repo()
+
+print("mahnoor azhar")
